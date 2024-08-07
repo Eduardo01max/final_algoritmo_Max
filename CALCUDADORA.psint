@@ -1,0 +1,44 @@
+Algoritmo CALCUDADORA_BASICA
+	Definir  num1, num2,opc Como Entero
+	Repetir
+		Escribir "1- suma"
+		Escribir "2- resta"
+		Escribir "3- multiplicacion "
+		Escribir "4- divicion"
+		Escribir "6- salir"
+		Escribir "ingresar opc"
+		Leer opc
+		Segun opc Hacer
+			1: 
+				Escribir "ingresar un numero "
+				Leer num1
+				Escribir "ingresar un segundo numero"
+				leer num2
+				Escribir "el resultado de la suma es: ", (num1+num2)
+			2:
+				Escribir "ingresar un numero "
+				Leer num1
+				Escribir "ingresar un segundo numero"
+				leer num2
+				Escribir "el resultado de la resta es: ", (num1-num2)
+			3:
+				Escribir "ingresar un numero "
+				Leer num1
+				Escribir "ingresar un segundo numero"
+				leer num2
+				Escribir "el resultado de la multiplicacion es: ", (num1*num2)
+			4:  
+				Escribir "ingresar un numero "
+				Leer num1
+				Escribir "ingresar un segundo numero"
+				leer num2
+				Escribir "el resultado de la division es: ", (num1/num2)
+			6: 
+				Escribir "ADIOSSSS FUE UN PLACER AYUDARTE"
+			De Otro Modo:
+				Escribir "la opcion que ingresaste fue invalida "
+		Fin Segun
+	Hasta Que opc = 6;
+	
+	
+FinAlgoritmo
